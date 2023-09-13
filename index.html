@@ -1,58 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Ariel Ramos</title>
 </head>
-<style>
-    div.quadrado {
-        background-image: url(imagens/wallpaper002.jpg);
-        margin: 10px;
-        border-radius: 10px;
-        height: 300px;
-        border: 1px solid black;
-    }
-
-    div.q1 {
-        
-    }
-
-    div.q2 {
-        
-    }
-
-    div.q3 {
-        
-    }
-
-    div.q4 {
-        
-    }
-
-    div.q5 {
-        
-    }
-</style>
 <body>
-    <div class="quadrado" id="q1">
-
-    </div>
-
-    <div class="quadrado" id="q2">
-
-    </div>
-
-    <div class="quadrado" id="q3">
-
-    </div>
-
-    <div class="quadrado" id="q4">
-
-    </div>
-
-    <div class="quadrado" id="q5">
-
-    </div>
+    <header>
+        <nav class="nav-bar">
+            <a href="#" class="logo">Logo</a>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#"  class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><span id="burguer" class="material-symbols-outlined">menu</span></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#"  class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <script src="assets/script.js"></script>
 </body>
 </html>

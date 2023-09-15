@@ -7,6 +7,7 @@
 body, html {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
 /* NOVO MENU*/
@@ -25,6 +26,7 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    
 }
 
 .nav-list {
@@ -34,7 +36,6 @@ header {
 
 .nav-list ul {
     display: flex;
-
     list-style: none;
 }
 
@@ -72,6 +73,36 @@ header {
 }
 
 /* NOVO MENU*/
+
+.page1 {
+    background-color: blue;
+}
+
+.page2 {
+    background-color: blueviolet;
+}
+
+.page3 {
+    background-color: crimson;
+}
+
+.interface {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
 
 @media (max-width: 550px) {
     .nav-bar {

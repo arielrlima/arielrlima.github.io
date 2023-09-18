@@ -39,15 +39,15 @@ header {
     list-style: none;
 }
 
-.nav-item {
-    margin: 0 15px;
-}
-
-.nav-link {
+.nav-list a {
     text-decoration: none;
     font-size: 1.0rem;
     color: #fff;
     font-weight: 400;
+}
+
+li {
+    margin: 0 15px;
 }
 
 .mobile-menu-icon {

@@ -7,15 +7,13 @@
 /* NOVO MENU*/
 
 .nav-bar {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
     background-color: #24252a;
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-}
-
-.nav-list {
-    display: flex;
-    align-items: center;
 }
 
 .nav-list ul {
@@ -30,7 +28,7 @@
     font-weight: 400;
 }
 
-li {
+.nav-list li {
     margin: 0 15px;
 }
 
@@ -57,27 +55,6 @@ li {
 }
 
 /* NOVO MENU*/
-
-.page1 {
-    background-color: blue;
-}
-
-.page2 {
-    background-color: blueviolet;
-}
-
-.page3 {
-    background-color: crimson;
-}
-
-.interface {
-    width: 50%;
-    height: 800px;
-}
-
-section {
-    color: #97d3a6;
-}
 
 @media (max-width: 550px) {
     .nav-bar {
